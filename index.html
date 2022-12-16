@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Consulants</title>
+    <link rel="stylesheet" href="dist/output.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Lora:wght@400;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body class="mx-auto sm:mx-20">
+    
+    <!-- Header -->
+
+    <header class="py-6 sm:mb-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+
+                <!-- Logo -->
+                <a href="#">
+                    <div class="font-Crimson-Pro text-sm border-2 px-3 py-1 inline">THIS INTERIOR</div>
+                </a>
+
+                <div class="flex items-center">
+                    <!-- Hamburger -->
+                    <button id="hamburger" name="hamburger" class="sm:hidden">
+                        <span class="hamburger-line origin-top-left"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line origin-bottom-left"></span>
+                    </button>
+
+                    <!-- Navbar -->
+                    <nav id="nav-menu" class="hidden absolute h-screen top-full right-0 left-0 bg-primary z-10 flex justify-center items-center sm:block sm:static sm:h-full">
+                        <ul class="block sm:flex">
+                            <li class="text-lg hover:underline hover:font-bold font-Montserrat text-center py-4 sm:px-8">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="text-lg hover:underline hover:font-bold font-Montserrat text-center py-4 sm:px-8">
+                                <a href="#">Collection</a>
+                            </li>
+                            <li class="text-lg hover:underline hover:font-bold font-Montserrat text-center py-4 sm:px-8">
+                                <a href="#">About</a>
+                            </li>
+                            <li class="text-lg hover:underline hover:font-bold font-Montserrat text-center py-4 sm:px-8">
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+
+    <section id="home">
+        <div class="container ">
+            <div class="flex flex-wrap">
+                <!-- Text -->
+                <div class="mb-5 sm:w-1/2 sm:flex sm:flex-col sm:justify-center sm:pr-5">
+                    <h1 class="font-Lora text-4xl my-5 sm:text-5xl">Modern interior</h1>
+                    <p class="font-Montserrat text-sm mb-5 pr-16 sm:text-2xl">A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+
+                    <div class="flex group">
+                        <a href="#" class="text-sm font-bold font-Montserrat flex items-center group-hover:scale-105 duration-300 transition sm:text-lg">Read more
+                            <span class="material-symbols-outlined ml-3">
+                                trending_flat
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Image -->
+                <div class="relative sm:w-1/2">
+                    <img src="dist/img/photo1.png" alt="hero" class="w-full">
+                    
+                    <div class="card absolute -bottom-[70px] left-14 right-0 max-w-[400px] sm:left-40">
+                        <div class="flex items-center w-full mb-3">
+                            <div class="w-[40px] mr-4 sm:w-[50px]">
+                                <img src="dist/img/photo2.png" alt="" class="w-full rounded-full">
+                            </div>
+                            <div>
+                                <h4 class="font-Montserrat text-xs pb-1 sm:text-sm">Aliza Webber</h4>
+                                <p class="font-Montserrat text-[10px] text-slate-400 sm:text-xs">Interior designer</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-Lora font-bold text-lg">Designed in 2020 by Aliza Webber</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collection -->
+
+    <!-- About -->
+
+    <!-- Contact -->
+
+    <!-- Footer -->
+    <footer class="flex justify-center mt-[150px] mb-2">
+        <p class="font-Montserrat text-[#bdbdbd]">created by <a class="font-semibold" href="https://github.com/mwldnp" target="_blank">Wildan</a> - <span class="font-semibold">devChallenges.io</span></p>
+    </footer>
+
+    <script src="dist/js/script.js"></script>
+
+</body>
+</html>

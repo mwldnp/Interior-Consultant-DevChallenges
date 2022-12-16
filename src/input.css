@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-primary text-white px-4;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.card {
+    @apply bg-primary shadow-xl w-3/4 h-[140px] p-5 flex flex-wrap mx-auto;
+}
+
+.hamburger-line {
+    @apply h-[2px] w-[30px] bg-white block my-2 transition-all duration-300 ease-in-out;
+}
+
+.hamburger-active > span:nth-child(1) {
+    @apply rotate-45;
+}
+  
+.hamburger-active > span:nth-child(3) {
+    @apply -rotate-45;
+}
+  
+.hamburger-active > span:nth-child(2) {
+    @apply scale-0;
+}
