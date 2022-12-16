@@ -645,10 +645,6 @@ video {
   max-width: 400px;
 }
 
-.max-w-\[300px\] {
-  max-width: 300px;
-}
-
 .origin-top-left {
   transform-origin: top left;
 }
@@ -860,14 +856,6 @@ body {
 }
 
 @media (min-width: 640px) {
-  .sm\:static {
-    position: static;
-  }
-
-  .sm\:left-36 {
-    left: 9rem;
-  }
-
   .sm\:left-40 {
     left: 10rem;
   }
@@ -881,32 +869,12 @@ body {
     margin-bottom: 2.5rem;
   }
 
-  .sm\:block {
-    display: block;
-  }
-
   .sm\:flex {
     display: flex;
   }
 
-  .sm\:hidden {
-    display: none;
-  }
-
-  .sm\:h-full {
-    height: 100%;
-  }
-
   .sm\:w-1\/2 {
     width: 50%;
-  }
-
-  .sm\:w-\[730px\] {
-    width: 730px;
-  }
-
-  .sm\:w-\[60px\] {
-    width: 60px;
   }
 
   .sm\:w-\[50px\] {
@@ -921,18 +889,23 @@ body {
     justify-content: center;
   }
 
-  .sm\:px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
   .sm\:pr-5 {
     padding-right: 1.25rem;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .sm\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .sm\:text-sm {
@@ -944,66 +917,33 @@ body {
     font-size: 0.75rem;
     line-height: 1rem;
   }
+}
 
-  .sm\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+@media (min-width: 768px) {
+  .md\:static {
+    position: static;
   }
 
-  .sm\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
+  .md\:block {
+    display: block;
+  }
+
+  .md\:h-full {
+    height: 100%;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:static {
-    position: static;
+  .lg\:flex {
+    display: flex;
   }
 
-  .lg\:mx-20 {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
-  .lg\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
-
-  .lg\:block {
-    display: block;
-  }
-
-  .lg\:h-full {
-    height: 100%;
+  .lg\:hidden {
+    display: none;
   }
 
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  .lg\:pr-5 {
-    padding-right: 1.25rem;
-  }
-
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .lg\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
-  .lg\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
   }
 }
